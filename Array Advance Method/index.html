@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+         <div class="logo"><samp> A M D </samp>&nbsp;&nbsp;<i class="fa-brands fa-shopify"></i> </div>
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+           <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+           <li><a class="active" href="#">Home</a></li>
+           <li><a  href="#" onclick="mensClothing(this)">Men's Clothing</a></li>
+           <li><a href="#" onclick="womenClothing()">Women Clothing</a></li>
+           <li><a href="#" onclick="Electronics()">Electronics
+           </a></li>
+           <li><a href="#" onclick="jewelry()">Jewelery</a></li>
+           <input type="checkbox" id="click">
+         </ul>
+        </nav>
+       
+       
+         </header>
+
+         <br><br><br>
+   <div class="inputt">
+    <input id="search" type="search" placeholder="Search Your Products" >
+     <select class="select_option   text-lg ml-1" name="Category" id="Category_dropdown">
+        <option value="">Select Category</option>
+        <option value="men's Clothing">Men's Clothing</option>
+        <option value="women's Clothing">Women's Clothing</option>
+        <option value="jewelery">Jewelery</option>
+        <option value="electronics">Electronics</option>
+      </select>
+      <select class="border ammu   ml-1" name="sort" id="sort">
+        <option value="" class="ammu_select">Sort</option>
+        <option value="a-z" class="ammu_select">A-Z</option>
+        <option value="z-a" class="ammu_select">Z-A</option>
+      </select>
+    </div>
+    
+   <br><br><br><br><br>
+   <div class="Price_Parent">
+    <h1 class="price_child">Prices :</h1>
+    <div class="flex gap-8 ">
+   <div class="p-2"><input  type="radio" id="clickhunRs"> $100 </div>
+   <div class="p-2"><input  type="radio" id="clicktwoRs"> $200 </div>
+   <div class="p-2"><input  type="radio" id="clickthreeRs"> $300 </div>
+   <div class="p-2"><input  type="radio" id="clickfourRs"> $400 </div>
+   <div class="p-2"><input  type="radio" id="clickfiveRs"> $500 </div>
+  </div>
+ 
+  </div>
+   
+   <div class="container px-5 py-24 mx-auto">
+    <div id="container" class="flex flex-wrap -m-4">
+        </div>
+     </div>    
+
+
+     
+     <div class="footeritem">
+      <footer>
+        <div class="container">
+          <div class="sec aboutus">
+            <h2>About US</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+               Aliquam eveniet eius vitae, similique, culpa corrupti quis expedita exercitationem odio nemo ad 
+              vero nisi aspernatur necessitatibus sit cupiditate rem quasi esse?</p>
+              <ul class="sci">
+                <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+              </ul>
+            </div>
+         <div class="sec quickLinks">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Terms & Consitions</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+         </div>
+         <div class="sec contact">
+          <h2>Contact US</h2>
+          <ul class="info">
+            <li>
+              <span><i class="fa-solid fa-location-dot"></i></span>
+              <span>582 block 2 Azizabad <br>
+                Fb-Area karachi <br> PAK</span>
+            </li>
+            <li>
+              <!-- <span><i class=" fa-solid fa-phone "></i> </span> -->
+              <p> <span><i class=" fa-solid fa-phone "></i> </span><a href="tel:12345678900">+92 333 233 6322</a><br>
+                <a href="tel:12345678900">+92 333 338 2257</a</p>
+                  </li>
+            <li>
+              <!-- <span><i class="fa-solid fa-envelope"></i></span> -->
+              <p><a href="mailto:dirleader123@gmail.com"><i class="fa-solid fa-envelope"></i> &nbsp; dirleader123@gmail.com</a></p> 
+            
+            </li>
+          </ul>
+         </div>
+        </div>
+      </footer>
+      <div class="text">
+        <p>Copyright © 2023 M R H Store. All Rights Reserved.</p>
+      </div>
+      </div>
+     <script src="app.js"></script>
+</body>
+</html> 
+ 
+
+
+
